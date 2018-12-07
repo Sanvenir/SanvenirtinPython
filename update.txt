@@ -1,0 +1,175 @@
+####Sanvenirtin Python Version####
+####       version 0.0.1a     ####
+####    Date: 5.27.2015 Wed   ####
+Adding:
+1.Creating spirit class;
+2.Creating map class;
+3.Creating hero class inherit from CSpirit, which could be controled by player by clicking the mouse;
+4.Camera following hero making it stay in centre
+
+Aim:
+1.Adding Obstacle and its check function(already existed);
+2.Adding other spirit with simple AI
+3.Adding make path function, this time player needn't click space only near to the hero, but any place the hero can reach
+
+Bugs:
+1.Hero can pass the limit of the map
+2.Sanvenirtin.py will exit exactly after first click;
+
+####Sanvenirtin Python Version####
+####       version 0.0.2a     ####
+####    Date: 7.3.2015 Fri    ####
+Adding:
+1.Auto find way function updated;
+2.Hero can be controlled by click anywhere;
+3.NPC adding, including basic AI;
+4.Checking system improved;
+5.Attacking action added, basic properties added, properties check function added;
+
+Aim:
+1.Attack system and death system;
+2.Formal information appears;
+3.UI adding;
+
+####Sanvenirtin Python Version####
+####       version 0.0.3      ####
+####    Date: 7.8.2015 Wed    ####
+Adding:
+1.Simple UI added;
+2.Property class added;
+3.Attacking randomized,heath decreased check system improved;
+
+Fixing:
+1.Bug of affection system fixed;
+2.UI button appears more flexiable;
+
+Aim:
+1.File reading;
+2.Main map adding;
+3.Property natural increasing system adding;
+
+####Sanvenirtin Python Version####
+####       version 0.0.4      ####
+####    Date: 7.11.2015 Sat   ####
+Adding:
+1.Property class added;
+2.Dodge system and attackChecking system added
+3.Hungry system added;
+4.Property natural increasing;
+
+Fixing:
+1.Undrawing dead NPC
+
+####Sanvenirtin Python Version####
+####       version 0.0.5      ####
+####    Date: 7.13.2015 Mon   ####
+Adding:
+1.NPC text added;
+2.Random race added;
+3.Race information added;
+4.Attack system improved;
+5.Hero sight range added;
+
+Fixing:
+1.Sight function bug fixed;
+2.Game ends when hero health goes below zero
+
+Aiming:
+1.Main map adding;
+2.File saving and reading;
+3.Inventory system;
+4.Race affection system;
+
+####Sanvenirtin Python Version####
+####       version 0.0.6      ####
+####    Date: 7.15.2015 Wed   ####
+Adding:
+1.Main map randomly created;
+2.Different terrains image recognized;
+3.New scene created from main map, randomly adding NPC
+4.Hero property transform through maps;
+
+Aiming:
+1.Map showing;
+2.Random local map creation;
+3.Auto control;
+4.Basic inventory;
+
+####Sanvenirtin Python Version####
+####       version 0.0.7      ####
+####    Date: 7.16.2015 Thu   ####
+Adding:
+1.Map showing completed;
+2.Random map creating completed;
+3.autoControl completed;
+4.UI improved;
+
+Fixing:
+1.Time checking system corrected;
+
+Aiming:
+1.Basic inventory(at least adding food)(0.0.8)
+2.Data saving(0.0.9)
+3.Race affection(0.0.91)
+4.Town creation(0.0.93)
+5.Equipment(0.0.92)
+
+####Sanvenirtin Python Version####
+####       version 0.0.7      ####
+####    Date: 7.17.2015 Fri   ####
+Adding:
+1.Basic inventory and UI;
+2.Rigid body system improve.Rigidbody can drop things after destruction;
+3.Food item adding;
+4.Basic construction and equipment
+
+Aiming:
+1.Bag system adding
+2.Arm strength limit adding
+
+####Sanvenirtin Python Version####
+####       version 0.0.7a     ####
+####    Date: 7.18.2015 Sat   ####
+Fixing:
+1.Windows title bar hiding when expacted not to close directly;
+2.Inventory pick and arrange system improve;
+3.NPC's AI corrected and improved;
+
+####Sanvenirtin Python Version####
+####       version 0.0.8      ####
+####    Date: 8.1.2015 Sat    ####
+Adding:
+1.Saving function: Hero state can auto save when window closed;Main map auto saved after created;Local map saved after leaved;
+2.Anything else?
+
+Fixing:
+1.Win become a global var;
+
+####Sanvenirtin Python Version####
+####       version 0.0.81     ####
+####    Date: 8.4.2015 Tue    ####
+Adding:
+1.Town creation;
+2.Main map showing towns
+
+Aiming:
+1.Town's layout basicly creating
+
+####Sanvenirtin Python Version####
+####       version 0.0.81a    ####
+####    Date: 8.4.2015 Tue    ####
+Fixing:
+1.Town creation depend on terrian;
+2.Test town adding;
+3.Error fixed when hero saving file not existing;
+
+####Sanvenirtin Python Version####
+####       version 0.0.82     ####
+####    Date: 8.20.2015 Thu   ####
+Adding:
+1.Town's house created automatically;
+2.Local map layout system created;
+
+Fixing:
+1.Sizes of local map saving files become much smaller;
+2.Loading mapfile procedure becomes much quicker;
